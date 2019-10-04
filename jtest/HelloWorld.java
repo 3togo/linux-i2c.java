@@ -8,5 +8,6 @@ class HelloWorld
     {
         I2CBuffer buffer = new I2CBuffer( 255 ) ;
         System.out.println("Hello, World");
+        System.out.println("if you can see this line, this means that io.dvlopt.linux.i2c.I2CBuffer is callable!");
     }
 }
